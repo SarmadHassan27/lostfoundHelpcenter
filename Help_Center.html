@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lost & Found Help Center</title>
+  <style>
+    :root {
+      --primary-color: #2D6CDF;
+      --text-color: #333;
+      --bg-color: #f9f9f9;
+      --card-bg: #fff;
+      --border-radius: 12px;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      padding: 30px;
+      margin-bottom: 30px;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 22px;
+      color: var(--primary-color);
+    }
+
+    .card p {
+      line-height: 1.6;
+    }
+
+    .email-box {
+      background-color: #eef4ff;
+      border-left: 4px solid var(--primary-color);
+      padding: 15px 20px;
+      font-size: 16px;
+      word-break: break-word;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 22px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lost & Found Help Center</h1>
+  </header>
+
+  <div class="container">
+    
+    <div class="card">
+      <h2>About Us</h2>
+      <p>
+        Welcome to the Lost & Found app – your reliable platform for reporting and recovering lost or found items. 
+        We are dedicated to creating a secure and efficient way to reconnect people with their belongings.
+        Our app prioritizes user trust, verified profiles, secure chat, and a reward-based return system.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contact Support</h2>
+      <p>If you need help or have any questions, feel free to email us at:</p>
+      <div class="email-box">
+        lostandfound@gmail.com
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
